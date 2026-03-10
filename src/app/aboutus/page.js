@@ -1,5 +1,5 @@
 
-import AboutUsSection from "../../components/aboutus/AboutUsSection,";
+import AboutUsSection from "../../components/aboutus/AboutUsSection";
 import ContactSection from "../../components/aboutus/ContactSection";
 import TeamSection from "../../components/aboutus/TeamSection";
 import Testimonials from "../../components/aboutus/Testimonials";
