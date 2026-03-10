@@ -1,9 +1,5 @@
 [build]
-command = "npm run build"
-publish = ".next"
+  command = "npm run build"
 
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
-conditions = { Role = "404" }
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
