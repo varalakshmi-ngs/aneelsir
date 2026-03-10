@@ -1,7 +1,7 @@
 "use client";
 
-import ContactSection from "../../components/contact/ContactSection";
-import InquirySection from "../../components/contact/InquirySection";
+import ContactSection from "../../../components/contact/ContactSection";
+import InquirySection from "../../../components/contact/InquirySection";
 
 
 export default function page() {
