@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import CustomButton from "../../utils/CustomButton";
+import CustomButton from "utils/CustomButton";
 
 const containerVariants = {
   hidden: { opacity: 0 },

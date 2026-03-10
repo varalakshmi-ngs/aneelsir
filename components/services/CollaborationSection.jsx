@@ -1,6 +1,6 @@
 "use client";
 
-import CustomButton from "../../utils/CustomButton";
+import CustomButton from "utils/CustomButton";
 
 export default function CollaborationSection() {
   return (

@@ -1,6 +1,6 @@
-import CollaborationSection from "../../../components/services/CollaborationSection";
-import ServicesGrid from "../../../components/services/ServicesGrid";
-import CustomHero from "../../../utils/CustomHero";
+import CollaborationSection from "components/services/CollaborationSection";
+import ServicesGrid from "components/services/ServicesGrid";
+import CustomHero from "utils/CustomHero";
 
 export default function page() {
   return (

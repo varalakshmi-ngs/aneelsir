@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import ServiceCard from "../../utils/ServiceCard";
+import ServiceCard from "utils/ServiceCard";
 
 export default function Service() {
   const services = [

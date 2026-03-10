@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import CustomButton from "../../utils/CustomButton";
+import CustomButton from "utils/CustomButton";
 
 export default function AboutUsSection() {
   return (
