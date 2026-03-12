@@ -17,15 +17,21 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-[#f1f9f5] shadow-md z-50 ">
+      <div className="bg-blue-600 h-10 flex items-center justify-center">
+        <span className="text-white text-sm font-bold">
+          📞 For More Queries: +91 99490 11223 &nbsp; | &nbsp; +91 77020 11223 &nbsp; | &nbsp; ⏰ 24/7 Available
+        </span>
+      </div>
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-4">
-        
+
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <img
+          {/* <img
             src="/images/Logo-removebg-preview1 (1).png"
             alt="Logo"
             className="h-12 w-auto"
-          />
+          /> */}
+          <span className="text-4xl font-bold text-blue-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -64,7 +70,7 @@ export default function Header() {
             href="/contact"
             className="px-5 py-2 bg-[#F84365] text-white rounded-full hover:bg-[#CC334E] transition"
           >
-            Contact With RoboOnline
+            Contact With RK4CES
           </Link>
         </div>
 
@@ -113,7 +119,7 @@ export default function Header() {
               className="mt-3 px-5 py-2 bg-[#F84365] text-white rounded-full hover:bg-[#CC334E] transition text-center"
               onClick={() => setIsOpen(false)}
             >
-              Contact With RoboOnline
+              Contact With RK4CES
             </Link>
           </nav>
         </div>

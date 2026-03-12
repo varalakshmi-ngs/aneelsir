@@ -9,7 +9,7 @@ export default function Service() {
     {
       title: "IT Services",
       description:
-        "From software development to cloud solutions, RoboOnline delivers cutting-edge IT services that drive innovation and growth for your business.",
+        "From software development to cloud solutions, RK4CES delivers cutting-edge IT services that drive innovation and growth for your business.",
       image: "/images/itservises.jpeg",
       bgColor: "bg-blue-100",
     },
@@ -40,7 +40,7 @@ export default function Service() {
     <section className="py-12 px-4 ">
       <h2 className="text-4xl font-bold text-[#281E5C]  text-center mb-4">Our Services</h2>
       <p className="text-center text-gray-700 mb-12 max-w-2xl mx-auto">
-        At RoboOnline, we provide a complete suite of services to support businesses,
+        At RK4CES, we provide a complete suite of services to support businesses,
         professionals, and NRIs with IT, corporate, legal, and consulting solutions.
       </p>
 
@@ -72,6 +72,7 @@ export default function Service() {
               description={service.description}
               image={service.image}
               bgColor={service.bgColor}
+              className="h-full"
             />
           </motion.div>
         ))}

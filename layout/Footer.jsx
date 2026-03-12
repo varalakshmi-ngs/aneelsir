@@ -23,7 +23,7 @@ export default function Footer() {
             <p className="text-[15px] mb-1">
               Overall client rating is 4.9 out of 5
             </p>
-            <p className="text-[15px] mb-4">8,500 Clients for RoboOnline</p>
+            <p className="text-[15px] mb-4">8,500 Clients for RK4CES</p>
 
             {/* Social Icons */}
             <div className="flex space-x-4 mb-4">
@@ -58,7 +58,7 @@ export default function Footer() {
               className="inline-block bg-[#F84365] text-white px-6 py-2 rounded-full 
                          hover:bg-[#CC334E] transition-all duration-300"
             >
-              contact us 
+              contact us
             </a>
           </div>
 
@@ -76,10 +76,12 @@ export default function Footer() {
                 <span className="mr-2">📧</span> aneel@robolegalonline.com
               </li>
               <li className="flex items-center">
-                <span className="mr-2">📧</span> info@roboonline.com
+                <span className="mr-2">📧</span> contact@roboonline.in
+
+
               </li>
               <li className="flex items-center">
-                <span className="mr-2">💬</span> Robo-Online
+                <span className="mr-2">💬</span> RK4CES
               </li>
             </ul>
           </div>
@@ -166,7 +168,7 @@ export default function Footer() {
         <div className="border-t border-gray-600 mt-10 pt-6 text-sm text-gray-400 text-center space-y-2">
           <p>We are tracking any intention of piracy.</p>
           <p>
-            Copyright © 2025 RoboOnline. All rights reserved. Template By Rajesh
+            Copyright © 2025 RK4CES. All rights reserved. Template By Rajesh
             Doot
           </p>
         </div>

@@ -9,21 +9,21 @@ export default function InquirySection() {
   const testimonials = [
     {
       text:
-        "RoboOnline helped us take our business digital with an amazing website and app. Their support team is always responsive.",
+        "RK4CES helped us take our business digital with an amazing website and app. Their support team is always responsive.",
       name: "Lora Myka",
       company: "ABC Business, Jaipur, Rajasthan",
       image: "/images/Anil-1-683x1024.jpg",
     },
     {
       text:
-        "We partnered with RoboOnline for digital marketing. Our brand visibility and leads have grown tremendously.",
+        "We partnered with RK4CES for digital marketing. Our brand visibility and leads have grown tremendously.",
       name: "John Doe",
       company: "XYZ Corp, Bangalore, India",
       image: "/images/testimonial-1.jpg",
     },
     {
       text:
-        "The RoboOnline team delivers high-quality solutions on time. Their IT consulting made our processes smoother.",
+        "The RK4CES team delivers high-quality solutions on time. Their IT consulting made our processes smoother.",
       name: "Ananya Sharma",
       company: "Tech Solutions, Hyderabad",
       image: "/images/testimonial-1.jpg",
@@ -123,7 +123,7 @@ export default function InquirySection() {
           {/* Right Column - Form */}
           <div className="flex-1 bg-white rounded-2xl p-6 sm:p-8 shadow-sm">
             <h3 className="text-base sm:text-lg font-semibold mb-6 text-center lg:text-left text-[#281E5C]">
-              Share your inquiry with RoboOnline 🚀
+              Share your inquiry with RK4CES 🚀
             </h3>
             <form className="space-y-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -171,7 +171,7 @@ export default function InquirySection() {
               <div className="flex items-start gap-2">
                 <input type="checkbox" className="accent-[#F84365] mt-1" />
                 <p className="text-xs sm:text-sm text-gray-600">
-                  I agree to the Terms & Conditions of RoboOnline.
+                  I agree to the Terms & Conditions of RK4CES.
                 </p>
               </div>
 

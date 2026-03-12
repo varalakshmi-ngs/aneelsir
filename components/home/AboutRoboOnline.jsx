@@ -40,7 +40,7 @@ export default function AboutRoboOnline() {
           className="text-[#281E5C]  font-medium"
           variants={lineVariants}
         >
-          About Robo Online
+         // About RK4CES
         </motion.p>
 
         <motion.h1
@@ -51,7 +51,7 @@ export default function AboutRoboOnline() {
           <span className="text-[#281E5C]">of Your Problems Carefully</span>
         </motion.h1>
 
-        <motion.p className="text-gray-600" variants={lineVariants}>
+        <motion.p className="text-gray-600 text-justify" variants={lineVariants}>
           Offering comprehensive solutions in IT services, Corporate services,
           and NRI services, our company ensures seamless integration of
           technology and expertise. We empower businesses with innovative IT
@@ -101,7 +101,7 @@ export default function AboutRoboOnline() {
       >
         <Image
           src="/images/Anil-1-683x1024.jpg"
-          alt="Robo Online Illustration"
+          alt="RK4CES Illustration"
           width={500}
           height={500}
           className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto rounded-lg shadow-lg object-cover"

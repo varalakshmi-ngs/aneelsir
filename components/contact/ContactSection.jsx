@@ -55,7 +55,7 @@ export default function ContactSection() {
             className="text-gray-600 mt-4 max-w-lg"
             variants={itemVariants}
           >
-            At RoboOnline, we’re here to support you—whether it’s IT services,
+            At RK4CES, we’re here to support you—whether it’s IT services,
             corporate solutions, or NRI support. Reach out to us and let’s make
             your journey seamless.
           </motion.p>

@@ -10,7 +10,7 @@ export default function CreativeHeroSection() {
   ];
 
   const subHeadingLines = [
-     "RoboOnline transforms ideas into powerful digital solutions.",
+     "RK4CES transforms ideas into powerful digital solutions.",
     "We help brands grow with AI-driven strategies, automation, and creative design."
   ];
 
@@ -76,7 +76,7 @@ export default function CreativeHeroSection() {
         {/* Call-to-Action Button */}
         <motion.div variants={item}>
          <CustomButton
-            text="Get Started with RoboOnline"
+            text="Get Started with RK4CES"
             href="/contact"
             bgColor="bg-[#F84365]"
             hoverColor="hover:bg-[#CC334E]"

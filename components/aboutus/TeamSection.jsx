@@ -5,7 +5,7 @@ import { Linkedin } from "lucide-react";
 export default function TeamSection() {
   const teamMembers = [
     {
-      name: "Bhargav Sai",
+      name: "Lion. Aneel Stevenson Jangam",
       role: "Founder",
       image: "/images/Anil-1-683x1024.jpg",
       linkedin: "https://www.linkedin.com/in/example1",
@@ -41,14 +41,14 @@ export default function TeamSection() {
             />
             <h3 className="mt-6 text-xl font-bold text-gray-900">{member.name}</h3>
             <p className="text-gray-600">{member.role}</p>
-            <a
+            {/* <a
               href={member.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 inline-block text-[#281E5C] hover:text-[#1f1647] transition"
             >
               <Linkedin size={24} />
-            </a>
+            </a> */}
           </div>
         ))}
       </div>
