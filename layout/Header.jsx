@@ -26,12 +26,12 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          {/* <img
-            src="/images/Logo-removebg-preview1 (1).png"
+          <img
+            src="/images/mylogo.png"
             alt="Logo"
             className="h-12 w-auto"
-          /> */}
-          <span className="text-4xl font-bold text-blue-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span>
+          />
+          {/* <span className="text-4xl font-bold text-blue-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span> */}
         </Link>
 
         {/* Desktop Nav */}

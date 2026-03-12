@@ -39,12 +39,12 @@ export default function AboutUsSection() {
             </p>
           </motion.div>
           <div className="flex flex-col items-center">
-            {/* <img
-              src="/images/Logo-removebg-preview1 (1).png"
+            <img
+              src="/images/mylogo.png"
               alt="RK4CES Logo"
               className="w-36 sm:w-44 md:w-56 mb-4 sm:mb-6"
-            /> */}
-            <span className="text-4xl font-bold text-blue-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span>
+            />
+            {/* <span className="text-4xl font-bold text-blue-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span> */}
             <img
               src="/images/img1.jpg"
               alt="Robotics innovation"

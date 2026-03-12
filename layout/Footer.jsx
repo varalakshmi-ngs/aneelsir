@@ -15,12 +15,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo + Info */}
           <div>
-            {/* <img
-              src="/images/Logo-removebg-preview1 (1).png"
+            <img
+              src="/images/mylogo.png"
               alt="Logo"
               className="h-8 mb-4"
-            /> */}
-            <span className="text-4xl font-bold text-white-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span>
+            />
+            {/* <span className="text-4xl font-bold text-white-800 hover:animate-grow transition-transform duration-300 hover:scale-110">RK4CES</span> */}
             <p className="text-[15px] mb-1">
               Overall client rating is 4.9 out of 5
             </p>
