@@ -34,7 +34,7 @@ export default function AboutRoboOnline() {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }} // animation triggers when section is 30% in view
+        viewport={{ once: true, amount: 0.3 }}
       >
         <motion.p
           className="text-[#281E5C]  font-medium"
@@ -75,17 +75,50 @@ export default function AboutRoboOnline() {
             Indians&apos; financial and legal needs.
           </li>
         </motion.ul>
-
-        <motion.div variants={lineVariants}>
-          <CustomButton
-            text="Read More"
-            href="/contact"
-            bgColor="bg-[#F84365]"
-            hoverColor="hover:bg-[#CC334E]"
-            textColor="text-white"
+        <motion.div
+          variants={lineVariants}
+          whileHover={{ scale: 1.05 }}
+          className="relative inline-flex group"
+        >
+          <motion.div
+            className="absolute -inset-[2px] rounded-full"
+            style={{
+              background:
+                "linear-gradient(120deg,#F84365,#ff8aa0,#7c6cff,#4fb7ff,#F84365)",
+              backgroundSize: "300% 300%",
+              filter: "blur(3px)"
+            }}
+            animate={{
+              backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"]
+            }}
+            transition={{
+              duration: 6,
+              repeat: Infinity,
+              ease: "linear"
+            }}
           />
 
+          <a
+            href="/contact"
+            className="relative flex items-center gap-2 px-7 py-3 rounded-full bg-[#F84365] text-white font-semibold shadow-lg overflow-hidden"
+          >
+            <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></span>
+
+            Read More
+
+            {/*           <motion.span
+              animate={{ x: [0, 5, 0] }}
+              transition={{
+                duration: 1.4,
+                repeat: Infinity
+              }}
+            >
+              →
+            </motion.span> */}
+          </a>
         </motion.div>
+
+
       </motion.div>
 
       {/* Right main image */}
